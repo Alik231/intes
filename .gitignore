@@ -1,33 +1,30 @@
-# Gradle files
-.gradle/
-build/
+# Создано на https://www.toptal.com/developers/gitignore/api/windows
+# Отредактируйте на https://www.toptal.com/developers/gitignore?templates=windows
 
-# Local configuration file (sdk path, etc)
-local.properties
+### Windows ###
+# Файлы кэша эскизов Windows
+Thumbs.db
+Thumbs.db: шифруемый
+ehthumbs.db
+ehthumbs_vista.db
 
-# Log/OS Files
-*.log
+# Файл дампа
+*.stackdump
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Файл конфигурации папки
+[Dd]esktop.ini
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Корзина, используемая в общих файловых ресурсах
+$RECYCLE.BIN/
 
-# Keystore files
-*.jks
-*.keystore
+# Файлы установщика Windows 
+* .cab
+* .msi
+* .msix 
+* .msm
+*.msp
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Ярлыки Windows 
+*.lnk
 
-# Android Profiling
-*.hprof
+# Конец https://www.toptal.com/developers/gitignore/api/windows
